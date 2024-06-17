@@ -1,0 +1,7 @@
+{
+  "name": "ruddy_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}

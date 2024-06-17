@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap');
+
+// €
+
+$color-light-red: #d55951;
+$color-red: #CE2B26;
+$color-red-button: rgba(245, 199, 177, 0.2);
+$color-red-tab: rgba(245, 199, 177, 0.2);
+$color-grey: #c4c4c4;
+$color-light-grey: #ededed;
+$color-green:#34B558;
+$color-strong-grey: #898989;
+$color-dark-blue: #48CAE4;
+$color-light-blue: #90E0EF;
+$color-orange: #F77F00;
+
+
+@mixin fontMontserrat ($size, $weight, $height){
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin overflowHide {
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        width: 0;
+    }
+}
